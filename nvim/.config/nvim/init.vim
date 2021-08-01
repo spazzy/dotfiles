@@ -19,3 +19,14 @@ inoremap fd <esc>
 inoremap <C-c> <esc>
 
 lua require("markt")
+
+vnoremap J :m '>+1<cr>gv=gv
+vnoremap K :m '<-2<cr>gv=gv
+inoremap <C-j> <esc>:m .+1<cr>==
+inoremap <C-k> <esc>:m .-2<cr>==
+nnoremap <leader>j :m .+1<cr>==
+nnoremap <leader>k :m .-2<cr>==
+
+
+
+
