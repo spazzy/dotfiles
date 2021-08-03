@@ -1,1 +1,11 @@
-alias nvim=~/apps/nvim-root/AppRun
+
+
+if [[ -n ${ZSH_VERSION-} ]]; then
+    source <(kubectl completion zsh)
+fi
+
+export PATH=$PATH:/home/mark/apps
+
+
+export PATH=$PATH:/usr/local/go/bin
+export JAVA_HOME=/usr/lib/jvm/java-11-openjdk-amd64
