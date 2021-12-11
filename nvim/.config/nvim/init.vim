@@ -8,10 +8,10 @@ Plug 'nvim-telescope/telescope-fzy-native.nvim'
 Plug 'neovim/nvim-lspconfig'
 Plug 'nvim-lua/completion-nvim'
 
-Plug 'gruvbox-community/gruvbox'
+Plug 'dracula/vim', { 'as': 'dracula' }
 call plug#end()
 
-colorscheme gruvbox
+colorscheme dracula
 highlight Normal guibg=none
 
 let mapleader = " "
