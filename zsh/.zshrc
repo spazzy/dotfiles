@@ -100,7 +100,7 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-source $HOME/.zsh_profile
+source $HOME/.profile
 export GOPATH=$HOME/go
 export PATH=$PATH:$GOPATH/bin
 export PATH="$HOME/.poetry/bin:$PATH"
